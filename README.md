@@ -1,7 +1,10 @@
 # Data-Science-Coding-Challenge
 Data Science Coding-Challenge, die sowohl deine Fähigkeiten in der Datenaufbereitung, Analyse und Modellierung testet. Diese Challenge könnte in einem Bewerbungsprozess für eine Data-Science-Rolle verwendet werden
 
-#Problemstellung: Kundensegmentierung und Umsatzprognose
+# Problemstellung
+
+Kundensegmentierung und Umsatzprognose
+
 Du arbeitest für ein E-Commerce-Unternehmen, das eine große Menge an Kundendaten gesammelt hat. Das Unternehmen möchte seine Kunden besser verstehen und personalisierte Marketingmaßnahmen ergreifen, um den Umsatz zu steigern.
 
 Deine Aufgabe ist es, basierend auf den vorhandenen Daten:
@@ -35,52 +38,50 @@ Du erhältst einen Datensatz mit den folgenden Spalten:
 
 # Teil 1: Kundensegmentierung
 
-Datenaufbereitung:
-Bereinige den Datensatz, entferne fehlende Werte und überprüfe die Daten auf Inkonsistenzen.
-Erstelle sinnvolle Merkmale (Features), die zur Segmentierung der Kunden beitragen können.
+Datenaufbereitung
+- Bereinige den Datensatz, entferne fehlende Werte und überprüfe die Daten auf Inkonsistenzen.
+- Erstelle sinnvolle Merkmale (Features), die zur Segmentierung der Kunden beitragen können.
 
-Clustering-Modell:
-Wähle einen geeigneten Algorithmus (z. B. K-Means, DBSCAN, Hierarchisches Clustering) und segmentiere die Kunden in 3–5 Gruppen.
-Beschreibe jedes Segment anhand von Schlüsselmerkmalen (Alter, Einkommen, Kaufverhalten usw.).
+Clustering-Modell
+- Wähle einen geeigneten Algorithmus (z. B. K-Means, DBSCAN, Hierarchisches Clustering) und segmentiere die Kunden in 3–5 Gruppen.
+- Beschreibe jedes Segment anhand von Schlüsselmerkmalen (Alter, Einkommen, Kaufverhalten usw.).
 
-Ergebnisse visualisieren:
-Erstelle geeignete Diagramme (z. B. Streudiagramme, Balkendiagramme oder Heatmaps), um die Kundensegmente zu visualisieren.
-Diskutiere die Ergebnisse: Was sind die charakteristischen Merkmale der einzelnen Segmente? Wie könnte das Unternehmen diese Informationen nutzen?
+Ergebnisse visualisieren
+- Erstelle geeignete Diagramme (z. B. Streudiagramme, Balkendiagramme oder Heatmaps), um die Kundensegmente zu visualisieren.
+- Diskutiere die Ergebnisse: Was sind die charakteristischen Merkmale der einzelnen Segmente? Wie könnte das Unternehmen diese Informationen nutzen?
 
 
 # Teil 2: Umsatzprognose
 
-Zielvariable definieren:
-Verwende den vorhandenen Datensatz, um eine Zielvariable zu erstellen, die den Umsatz des Kunden für die nächsten 30 Tage vorhersagt.
+Zielvariable definieren
+- Verwende den vorhandenen Datensatz, um eine Zielvariable zu erstellen, die den Umsatz des Kunden für die nächsten 30 Tage vorhersagt.
 
-Modelltraining:
-Teile die Daten in Trainings- und Testdaten auf.
-Trainiere mindestens zwei verschiedene Modelle (z. B. lineare Regression, Entscheidungsbaum, Random Forest oder XGBoost), um den zukünftigen Umsatz zu prognostizieren.
-Verwende geeignete Metriken (z. B. RMSE, MAE), um die Leistung der Modelle zu bewerten.
+Modelltraining
+- Teile die Daten in Trainings- und Testdaten auf.
+- Trainiere mindestens zwei verschiedene Modelle (z. B. lineare Regression, Entscheidungsbaum, Random Forest oder XGBoost), um den zukünftigen Umsatz zu prognostizieren.
+- Verwende geeignete Metriken (z. B. RMSE, MAE), um die Leistung der Modelle zu bewerten.
 
-Modellbewertung:
-Diskutiere, welches Modell am besten funktioniert und warum. Gibt es Merkmale, die besonders stark zum Modell beitragen?
+Modellbewertung
+- Diskutiere, welches Modell am besten funktioniert und warum. Gibt es Merkmale, die besonders stark zum Modell beitragen?
 
 
 # Teil 3 (Optional): Churn-Analyse
 
-Abwanderungsmodell:
-Verwende den vorhandenen Churn-Indikator (label_churn), um ein Modell zur Vorhersage der Kundenabwanderung zu trainieren (z. B. Logistic Regression, Random Forest).
-Diskutiere, welche Merkmale am wichtigsten sind, um die Abwanderung eines Kunden vorherzusagen.
-Stelle mögliche Maßnahmen vor, die das Unternehmen ergreifen könnte, um die Abwanderung zu verhindern.
+Abwanderungsmodell
+- Verwende den vorhandenen Churn-Indikator (label_churn), um ein Modell zur Vorhersage der Kundenabwanderung zu trainieren (z. B. Logistic Regression, Random Forest).
+- Diskutiere, welche Merkmale am wichtigsten sind, um die Abwanderung eines Kunden vorherzusagen.
+- Stelle mögliche Maßnahmen vor, die das Unternehmen ergreifen könnte, um die Abwanderung zu verhindern.
 
 Anforderungen
-
-Kommentiere deinen Code klar und verständlich.
-Verwende bewährte Methoden zur Datenaufbereitung und -modellierung.
-Visualisiere deine Ergebnisse in einer gut verständlichen und ansprechenden Weise.
-Schreibe einen kurzen Bericht (Markdown, Jupyter Notebook oder als separaten Text), in dem du deine Herangehensweise, die Modelle und die Ergebnisse erklärst.
+- Kommentiere deinen Code klar und verständlich.
+- Verwende bewährte Methoden zur Datenaufbereitung und -modellierung.
+- Visualisiere deine Ergebnisse in einer gut verständlichen und ansprechenden Weise.
+- Schreibe einen kurzen Bericht (Markdown, Jupyter Notebook oder als separaten Text), in dem du deine Herangehensweise, die Modelle und die Ergebnisse erklärst.
 
 
 Technische Voraussetzungen
-
-Du kannst eine beliebige Programmiersprache oder ein Framework verwenden, aber Python (mit Pandas, Scikit-Learn, Matplotlib/Seaborn) wird bevorzugt.
-Du solltest deine Ergebnisse in einem Jupyter Notebook oder einer ähnlichen Umgebung präsentieren.
+- Du kannst eine beliebige Programmiersprache oder ein Framework verwenden, aber Python (mit Pandas, Scikit-Learn, Matplotlib/Seaborn) wird bevorzugt.
+- Du solltest deine Ergebnisse in einem Jupyter Notebook oder einer ähnlichen Umgebung präsentieren.
 
 # Bewertungskriterien
 
