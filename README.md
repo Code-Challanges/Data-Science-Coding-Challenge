@@ -82,10 +82,12 @@ Technische Voraussetzungen
 Du kannst eine beliebige Programmiersprache oder ein Framework verwenden, aber Python (mit Pandas, Scikit-Learn, Matplotlib/Seaborn) wird bevorzugt.
 Du solltest deine Ergebnisse in einem Jupyter Notebook oder einer ähnlichen Umgebung präsentieren.
 
-Bewertungskriterien
+# Bewertungskriterien
 
-Datenaufbereitung:                 Wie gut und sauber hast du die Daten aufbereitet und mögliche Probleme gelöst?
-Modellleistung:                    Wie gut sind deine Modelle und wie gründlich hast du sie evaluiert?
-Segmentierung:                     Wie sinnvoll und interpretierbar sind die Kundensegmente?
-Visualisierung und Kommunikation:  Wie gut hast du deine Ergebnisse visuell dargestellt und erklärt?
-Dokumentation:                     Ist der Code klar kommentiert und die Vorgehensweise gut beschrieben?
+|--------------------------------------------------------------------------------------------------------------------|  
+| Datenaufbereitung:                | Wie gut und sauber hast du die Daten aufbereitet und mögliche Probleme gelöst? |
+| Modellleistung:                   | Wie gut sind deine Modelle und wie gründlich hast du sie evaluiert?            |
+| Segmentierung:                    | Wie sinnvoll und interpretierbar sind die Kundensegmente?                      |
+| Visualisierung und Kommunikation: | Wie gut hast du deine Ergebnisse visuell dargestellt und erklärt?              |
+| Dokumentation:                    | Ist der Code klar kommentiert und die Vorgehensweise gut beschrieben?          |
+ 
