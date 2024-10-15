@@ -11,11 +11,17 @@ Deine Aufgabe ist es, basierend auf den vorhandenen Daten:
 # Datenbeschreibung
 Du erhältst einen Datensatz mit den folgenden Spalten:
 
-Spalte	         |           Beschreibung
-------------------------------------------
-# customer_id	                Eindeutige ID des Kunden
-# age	                        Alter des Kunden
-# gender	                    Geschlecht des Kunden (männlich, weiblich, divers)
+| Spalte          | Beschreibung                                       |
+|-----------------|----------------------------------------------------|
+| customer_id     | Eindeutige ID des Kunden                           |
+| age	            | Alter des Kunden                                   |
+| gender          | Geschlecht des Kunden (männlich, weiblich, divers) |
+
+
+	         |           
+	                
+                     
+	                    Geschlecht des Kunden (männlich, weiblich, divers)
 # annual_income	              Jährliches Einkommen des Kunden in USD
 # purchase_amount	            Betrag des letzten Kaufs in USD
 # purchase_count	            Anzahl der Käufe des Kunden in den letzten 12 Monaten
