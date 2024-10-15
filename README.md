@@ -84,6 +84,7 @@ Du solltest deine Ergebnisse in einem Jupyter Notebook oder einer ähnlichen Umg
 
 # Bewertungskriterien
 
+|                                   |                                                                                |
 |--------------------------------------------------------------------------------------------------------------------|  
 | Datenaufbereitung:                | Wie gut und sauber hast du die Daten aufbereitet und mögliche Probleme gelöst? |
 | Modellleistung:                   | Wie gut sind deine Modelle und wie gründlich hast du sie evaluiert?            |
