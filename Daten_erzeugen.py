@@ -46,5 +46,8 @@ data = {
 
 df = pd.DataFrame(data)
 
-# Show first few rows of the generated dataset
-df.head()
+# Save the generated DataFrame to a CSV file
+file_path = '/mnt/data/ecommerce_customer_data.csv'
+df.to_csv(file_path, index=False)
+
+file_path
