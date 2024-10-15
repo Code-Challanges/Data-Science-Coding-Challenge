@@ -8,7 +8,7 @@ Deine Aufgabe ist es, basierend auf den vorhandenen Daten:
  1. Die Kunden in sinnvolle Segmente zu unterteilen
  2. Ein Modell zu entwickeln, das den Umsatz der Kunden für die nächsten 30 Tage vorhersagt
 
-#Datenbeschreibung
+# Datenbeschreibung
 Du erhältst einen Datensatz mit den folgenden Spalten:
 
 Spalte	                    Beschreibung
@@ -25,10 +25,10 @@ total_spent                	Gesamtbetrag, den der Kunde bisher ausgegeben hat
 next_purchase_prediction	  (Optional) Vorhersage, wann der nächste Kauf erfolgt (in Tagen)
 label_churn	                1, wenn der Kunde wahrscheinlich abwandert, 0, wenn nicht (nur für den zweiten Teil der Aufgabe)
 
-#Aufgaben
+# Aufgaben
 
 
-#Teil 1: Kundensegmentierung
+# Teil 1: Kundensegmentierung
 
 Datenaufbereitung:
 Bereinige den Datensatz, entferne fehlende Werte und überprüfe die Daten auf Inkonsistenzen.
@@ -43,7 +43,7 @@ Erstelle geeignete Diagramme (z. B. Streudiagramme, Balkendiagramme oder Heatmap
 Diskutiere die Ergebnisse: Was sind die charakteristischen Merkmale der einzelnen Segmente? Wie könnte das Unternehmen diese Informationen nutzen?
 
 
-#Teil 2: Umsatzprognose
+# Teil 2: Umsatzprognose
 
 Zielvariable definieren:
 Verwende den vorhandenen Datensatz, um eine Zielvariable zu erstellen, die den Umsatz des Kunden für die nächsten 30 Tage vorhersagt.
@@ -57,7 +57,7 @@ Modellbewertung:
 Diskutiere, welches Modell am besten funktioniert und warum. Gibt es Merkmale, die besonders stark zum Modell beitragen?
 
 
-Teil 3 (Optional): Churn-Analyse
+# Teil 3 (Optional): Churn-Analyse
 
 Abwanderungsmodell:
 Verwende den vorhandenen Churn-Indikator (label_churn), um ein Modell zur Vorhersage der Kundenabwanderung zu trainieren (z. B. Logistic Regression, Random Forest).
