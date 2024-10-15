@@ -11,19 +11,19 @@ Deine Aufgabe ist es, basierend auf den vorhandenen Daten:
 # Datenbeschreibung
 Du erhältst einen Datensatz mit den folgenden Spalten:
 
-Spalte	                    Beschreibung
-customer_id	                Eindeutige ID des Kunden
-age	                        Alter des Kunden
-gender	                    Geschlecht des Kunden (männlich, weiblich, divers)
-annual_income	              Jährliches Einkommen des Kunden in USD
-purchase_amount	            Betrag des letzten Kaufs in USD
-purchase_count	            Anzahl der Käufe des Kunden in den letzten 12 Monaten
-join_date	                  Datum, an dem der Kunde dem Unternehmen beigetreten ist
-last_purchase_date	        Datum des letzten Kaufs
-avg_purchase_interval_days	Durchschnittlicher Zeitraum zwischen Käufen (in Tagen)
-total_spent                	Gesamtbetrag, den der Kunde bisher ausgegeben hat
-next_purchase_prediction	  (Optional) Vorhersage, wann der nächste Kauf erfolgt (in Tagen)
-label_churn	                1, wenn der Kunde wahrscheinlich abwandert, 0, wenn nicht (nur für den zweiten Teil der Aufgabe)
+# Spalte	                   # Beschreibung
+# customer_id	                Eindeutige ID des Kunden
+# age	                        Alter des Kunden
+# gender	                    Geschlecht des Kunden (männlich, weiblich, divers)
+# annual_income	              Jährliches Einkommen des Kunden in USD
+# purchase_amount	            Betrag des letzten Kaufs in USD
+# purchase_count	            Anzahl der Käufe des Kunden in den letzten 12 Monaten
+# join_date	                  Datum, an dem der Kunde dem Unternehmen beigetreten ist
+# last_purchase_date	        Datum des letzten Kaufs
+# avg_purchase_interval_days	Durchschnittlicher Zeitraum zwischen Käufen (in Tagen)
+# total_spent                	Gesamtbetrag, den der Kunde bisher ausgegeben hat
+# next_purchase_prediction	  (Optional) Vorhersage, wann der nächste Kauf erfolgt (in Tagen)
+# label_churn	                1, wenn der Kunde wahrscheinlich abwandert, 0, wenn nicht (nur für den zweiten Teil der Aufgabe)
 
 # Aufgaben
 
