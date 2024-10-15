@@ -11,7 +11,8 @@ Deine Aufgabe ist es, basierend auf den vorhandenen Daten:
 # Datenbeschreibung
 Du erhältst einen Datensatz mit den folgenden Spalten:
 
-# Spalte	                   # Beschreibung
+Spalte	         |           Beschreibung
+------------------------------------------
 # customer_id	                Eindeutige ID des Kunden
 # age	                        Alter des Kunden
 # gender	                    Geschlecht des Kunden (männlich, weiblich, divers)
