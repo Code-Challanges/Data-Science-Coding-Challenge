@@ -30,9 +30,6 @@ Du erhältst einen Datensatz mit den folgenden Spalten:
 | label_churn	             | 1, wenn der Kunde wahrscheinlich abwandert, 0, wenn nicht (nur für den zweiten Teil der Aufgabe) |
 
 
-
-
-
 # Aufgaben
 
 
